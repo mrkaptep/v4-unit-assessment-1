@@ -2,16 +2,17 @@
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
 //CODE HERE 
-
+const myName = 'sam';
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
-
+const faveNum = 12;
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
-
 //CODE HERE
+
+const lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -20,6 +21,9 @@
 */
 
 //CODE HERE
+function sum(num1, num2){
+  return num1 + num2
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -30,7 +34,12 @@
 */
 
 //CODE HERE
-
+function trueOrFalse(data){
+if(data =>0){
+  return true
+} else
+  return false
+}
 //////////////////PROBLEM 6////////////////////
 /*
   Create a function called 'oddChecker' that takes in one parameter, 'num'. 
@@ -40,7 +49,12 @@
 */
 
 //CODE HERE
-
+function oddChecker(num){
+if(num%2 !== 0){
+  return 'the number is odd'
+} else 
+return 'the number is even'
+}
 //////////////////PROBLEM 7////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
@@ -49,20 +63,23 @@
 */
 
 //CODE HERE
-
+function iLove(name, love){
+  let i = (name + 'loves' + love)
+return[i] 
+}
 
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
 const faveColors = ['red', 'green', 'black']
-
 //CODE HERE
+const colorCopy = faveColors.slice(0,3)
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
-
+colorCopy.push('pink');
 //////////////////PROBLEM 10////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -72,7 +89,7 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-
+const middleNums = numbers.slice(1,4);
 //////////////////PROBLEM 11////////////////////
 /*
   Create an object called 'me' that has the following keys: 
@@ -88,14 +105,21 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 //CODE HERE
-
+const me = {
+  firstName: 'Sam',
+  state: 'Utah',
+  age: 40,
+  greeter: function(){
+    ('Hello! My name is' + firstname + 'and I live in' + state)
+  }
+}
 //////////////////PROBLEM 12////////////////////
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
   which will be an array of numbers. 
   Inside of the bigOrSmall function, create a new array called 'answers'. 
-  Then, loop over the passed in arr parameter, and check to see if the number in the
-  array is GREATER than 100. 
+  Then, loop over the passed in arr parameter, and 
+  check to see if the number in the array is GREATER than 100. 
   If it is, push 'big' as a string to the answers array. 
   If the number is LESS than or EQUAL to 100, push 'small' as a string 
   to the answers array. 
@@ -103,7 +127,15 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 // CODE HERE
-
+//function bigOrSmall(array){
+//let arr = [];
+//for(let i = 0; i < array.length; i++){
+//  if(array[i]<100)
+//  arr.push(big[i]);
+//} else {
+//arr.push(small[i])
+//}
+//}
 //////////////////PROBLEM 13////////////////////
 /* 
   Create a function called 'arrayReverser' that takes in one parameter, 'arr'. 

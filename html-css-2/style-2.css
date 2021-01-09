@@ -1,0 +1,176 @@
+body {
+    margin: 5px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.header {
+    border:  2px black solid;
+    background-color: #91f3da;
+    width: 100%;
+    height: 15vh;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px
+}
+h1 {
+    margin-left: 15px;
+}
+h2 {
+    margin-left: 25px;
+}
+
+.box-1 {
+    width: 98%;
+    box-sizing: border-box;
+    border: 1px navy dashed;
+    margin-left: 25px;
+    padding: 10px;
+}
+.purple {
+    background-color: rgb(70, 19, 70);
+    border: 3px red solid;
+    width: 150px;
+    height: 75px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.blue-box {
+    background-color: rgb(37, 37, 197);
+    width: 78px;
+    height: 78px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: 2px black solid;
+    border-top: 2px black solid;
+    box-shadow: 0 5px 10px 0;
+}
+.pink-square {
+    background-color: rgb(243, 116, 137);
+    border: 1px black solid;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.box-2{
+    width: 98%;
+    height: 360px;
+    box-sizing: border-box;
+    border: 1px navy dashed;
+    margin-top: 0;
+    margin-left: 25px;
+    padding: 10px;
+}
+.circle-1 {
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    border: 2px black solid;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.eyes {
+    margin: 20px 0 0 18px;
+}
+.eyes img {
+    width: 15px;
+    height: auto;
+    margin: 5px;
+}
+.nose {
+    margin-left: 27px;
+    padding-bottom: 25px;
+}
+.nose img {
+    width: 30px;
+    height: auto;
+    margin-bottom: 15px;
+    
+}
+.circle-2 {
+    background-color: white;
+    width: 105px;
+    height: 105px;
+    border: 2px black solid;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.coal {
+    margin: 14px 0 12px 45px;
+}
+.coal img {
+    width: 15px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+.circle-3 {
+    background-color: white;
+    width: 125px;
+    height: 125px;
+    border: 2px black solid;
+    margin-left: -10px;
+    border-radius: 50%;
+}
+.box-3 {
+    width: 98%;
+    height: 240px;
+    box-sizing: border-box;
+    border: 1px navy dashed;
+    margin-left: 25px;
+    padding: 10px;
+}
+.yellow-box {
+    background-color: rgb(231, 231, 167);
+    border: 2px black solid;
+    height: 200px;
+    width: 200px;
+    margin: 7px;
+    position:absolute;
+}
+.green-circle {
+    background-color: rgb(51, 104, 51);
+    width: 160px;
+    height: 160px;
+    border: 2px black solid;
+    border-radius: 50%;
+    margin: 10px;
+    position:absolute;
+    z-index: 1;
+}
+.red-square {
+    background-color: rgb(133, 61, 61);
+    width: 105px;
+    height: 105px;
+    margin: 38px;
+    position:absolute;
+    z-index: 2;
+}
+p {
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    z-index: 2;
+}
+.blue-circle {
+    background-color: rgb(65, 65, 218);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 40px;
+    position:absolute;
+    z-index: 3;
+}
+.fish {
+    width: 80px;
+    height: auto;
+    margin: 65px 0 0 50px;
+    position:absolute;
+    z-index: 4;
+}
+.fish img {
+    width: 68px;
+    height: auto;
+    border-radius: 50%;
+}
